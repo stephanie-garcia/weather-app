@@ -1,0 +1,37 @@
+h1 {
+  color: #ff4e7b;
+  text-align: center;
+}
+h2 {
+  color: #ff4e7b;
+  text-align: center;
+}
+.sunny {
+  color: #ffa726;
+  text-align: center;
+  font-size: 100px;
+}
+.days {
+  color: #ff4e7b;
+  text-align: center;
+  font-size: 35px;
+}
+.dates {
+  color: #42a5f5;
+  text-align: center;
+  font-size: 30px;
+}
+.weather-icons {
+  text-align: center;
+  font-size: 40px;
+  color: blueviolet;
+}
+.degrees {
+  text-align: center;
+  font-size: 40px;
+  color: #ffa726;
+}
+.input-container {
+  margin: 80px auto;
+  width: fit-content;
+}
