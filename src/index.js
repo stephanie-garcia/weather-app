@@ -43,6 +43,7 @@ function displayWeather(response) {
   document.querySelector(
     "#city"
   ).innerHTML = `Currently in ${response.data.name} it is ${temp} ℉`;
+  let iconElement = document.querySelector("#icon");
 }
 
 function search(event) {
@@ -56,6 +57,6 @@ function search(event) {
   let units = "imperial";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${units}`;
   axios.get(apiUrl).then(displayWeather);
-}
+  iconElement.setAttribute("src", `http://openweathermap.org/img/wn/10d@2x.png` ) ;
 let formElement = document.querySelector("#city-form");
 formElement.addEventListener("submit", search);
