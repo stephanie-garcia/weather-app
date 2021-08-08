@@ -7,8 +7,8 @@ h2 {
   text-align: center;
 }
 .icon {
-  text-align: center;
-  font-size: 100px;
+  display: block;
+  margin: 0 auto;
 }
 .days {
   color: #ff4e7b;
