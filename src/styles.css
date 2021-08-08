@@ -9,6 +9,7 @@ h2 {
 #icon {
   display: block;
   margin: 0 auto;
+  font-size:100px ;
 }
 .days {
   color: #ff4e7b;
