@@ -57,6 +57,10 @@ function search(event) {
   let units = "imperial";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${units}`;
   axios.get(apiUrl).then(displayWeather);
-  iconElement.setAttribute("src", `http://openweathermap.org/img/wn/10d@2x.png` ) ;
-let formElement = document.querySelector("#city-form");
-formElement.addEventListener("submit", search);
+  iconElement.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/10d@2x.png`
+  );
+  let formElement = document.querySelector("#city-form");
+  formElement.addEventListener("submit", search);
+}
