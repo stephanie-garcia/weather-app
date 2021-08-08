@@ -40,6 +40,10 @@ function displayWeather(response) {
   console.log(response.data);
   let temp = response.data.main.temp;
   temp = Math.round(temp);
+  document.querySelector("#humid").innerHTML = response.data.main.humidity;
+  document.querySelector("#wind").innerHTML = Math.round(
+    response.data.wind.speed
+  );
   document.querySelector(
     "#city"
   ).innerHTML = `Currently in ${response.data.name} it is ${temp} ℉`;

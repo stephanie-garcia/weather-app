@@ -62,3 +62,11 @@ h2 {
   color: #42a5f5;
   font-size: 35px;
 }
+
+#wordHumid {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  color: #42a5f5;
+  font-size: 26px;
+}
