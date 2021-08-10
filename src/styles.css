@@ -70,3 +70,8 @@ h2 {
   color: #42a5f5;
   font-size: 26px;
 }
+
+.weather-temp-min {
+  font-size: 35px;
+  opacity: 0.6;
+}
