@@ -16,21 +16,7 @@ h2 {
   text-align: center;
   font-size: 35px;
 }
-.dates {
-  color: #42a5f5;
-  text-align: center;
-  font-size: 30px;
-}
-.weather-icons {
-  text-align: center;
-  font-size: 40px;
-  color: blueviolet;
-}
-.degrees {
-  text-align: center;
-  font-size: 40px;
-  color: #ffa726;
-}
+
 .input-container {
   margin: 80px auto;
   width: fit-content;
@@ -71,7 +57,24 @@ h2 {
   font-size: 26px;
 }
 
-.weather-temp-min {
-  font-size: 35px;
-  opacity: 0.6;
+.weather-forecast {
+  margin-top: 20px;
+  color: #42a5f5;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 30px;
+  color: #ff4e7b;
+}
+.weather-forecast-temperatures {
+  font-size: 26px;
+  color: #ffa726;
+}
+.weather-forecast-temperature-min {
+  font-size: 24px;
+  opacity: 0.5;
+}
+body {
+  background: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
 }
