@@ -75,6 +75,10 @@ h2 {
   font-size: 24px;
   opacity: 0.5;
 }
+html {
+  height: 100%;
+}
 body {
   background: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  background-repeat: no-repeat;
 }
