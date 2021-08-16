@@ -4,7 +4,13 @@ let h2 = document.querySelector("h2");
 
 let date = now.getDate();
 let hours = now.getHours();
+if (hours < 10) {
+  hours = `0${hours}`;
+}
 let minutes = now.getMinutes();
+if (minutes < 10) {
+  minutes = `0${minutes}`;
+}
 let year = now.getFullYear();
 
 let days = [
@@ -108,7 +114,7 @@ function displayWeather(response) {
 }
 
 function search(event) {
-  //event.preventDefault();
+  event.preventDefault();
   //let cityElement = document.querySelector("#city");
   //let cityInput = document.querySelector("#city-input");
   //cityElement.innerHTML = `Currently in ${cityInput.value} 91℉`;
